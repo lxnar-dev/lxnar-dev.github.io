@@ -1,0 +1,167 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66BFBF;
+  /* font size 100% = 16px = 1em   1rem is root em & not dynamic, rem > em */
+  margin: 50px auto 0;
+  font-size: 562.5%;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+  font-weight: bolder;
+
+}
+
+p{
+  font-family:"Merriweather", serif ;
+  color: #40514E;
+  font-weight: bold;
+}
+
+a{
+  color: #11999E;
+}
+
+sup {
+  font-size: 10px;
+}
+
+hr{
+  width:5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  margin:75px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.contact-me{
+  width: 50%;
+  line-height: 2rem;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.profile{
+  width: 25%;
+  margin: auto;
+  padding-top: 60px;
+  line-height: 2;
+}
+
+.dp{
+  width: 60%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+
+  .skill-row{
+    margin:100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+  }
+
+.webd {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.guitar {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+a.btn
+{
+  text-decoration: none;
+  background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+  border-radius: 10px;
+  padding:10px;
+  color: white;
+  font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+a.btn:hover
+{
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  border-radius: 10px;
+  padding:10px;
+  color: white;
+  font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.bottom-container{
+  margin: 20px auto 0;
+  background-color: #66BFBF;
+  padding:20px 0;
+  line-height: 3;
+}
+
+.bottom-container p{
+  color:white;
+  font-size: 75%;
+  margin:10px auto 0;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: sans-serif;
+  margin:10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+  font-family: sans-serif;
+  margin:10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#ipro {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+#pro {
+  text-decoration: underline;
+}
